@@ -1,5 +1,10 @@
+import{Header}from'./Components/Header'
+import { Posts } from './Components/Posts'
 export function App(){
   return(
-    <h1>hello</h1>
+   <>
+   <Header/>
+   <Posts/>
+   </>
   )
 }
