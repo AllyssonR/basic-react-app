@@ -1,3 +1,4 @@
+import "../styles/post.scss";
 interface PostProps {
   title: string;
   paragraph: string;
